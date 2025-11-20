@@ -10,6 +10,7 @@ Pokemon API.
 * NestJS
 * MongoDB
 * Docker
+* Docker Compose
 
 ## Installation
 
