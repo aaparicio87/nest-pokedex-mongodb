@@ -6,12 +6,6 @@
 
 Pokemon API.
 
-## Stack
-* NestJS
-* MongoDB
-* Docker
-* Docker Compose
-
 ## Installation
 
 ```bash
@@ -36,3 +30,15 @@ $ pnpm run start:prod
 ```bash
 $ docker-compose up -d
 ```
+
+## Start Seed
+
+```bash
+http://localhost:3001/api/v2/seed
+```
+
+## Stack
+* NestJS
+* MongoDB
+* Docker
+* Docker Compose
