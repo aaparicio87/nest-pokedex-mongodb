@@ -39,6 +39,13 @@ http://localhost:3001/api/v2/seed
 * NestJS
 * MongoDB
 * Docker
-* Docker Compose
-* TypeScript
-* Joi
+
+## Production Build
+
+1. Copy the file __.env.sample__ to __.env.prod__ 
+2. Edit it with your own values.
+3. Create the new image 
+```bash
+$ docker-compose -f docker-compose.prdo.yaml --env-file .env.prod up 
+--build
+```
