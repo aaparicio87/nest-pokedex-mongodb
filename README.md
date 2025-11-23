@@ -12,23 +12,21 @@ Pokemon API.
 $ pnpm install
 ```
 
-## Running the app
-
-```bash
-# development
-$ pnpm run start
-
-# watch mode
-$ pnpm run start:dev
-
-# production mode
-$ pnpm run start:prod
-```
-
 ## Start DB
 
 ```bash
 $ docker-compose up -d
+```
+
+## Config environment variables
+
+Copy the file __.env.sample__ to __.env__ 
+and edit it with your own values.
+
+## Running the app in development mode
+
+```bash
+$ pnpm run start:dev
 ```
 
 ## Start Seed
@@ -42,3 +40,5 @@ http://localhost:3001/api/v2/seed
 * MongoDB
 * Docker
 * Docker Compose
+* TypeScript
+* Joi
